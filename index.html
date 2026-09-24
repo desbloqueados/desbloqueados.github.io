@@ -23,9 +23,13 @@
     #search:focus { transform:scale(1.03); border-color:#9748f8; }
     #search::placeholder { color:#9b93a4; }
     #games-list { display:grid; grid-template-columns:repeat(3,1fr); gap:9px; margin:0; padding:0; list-style:none; }
-    .games button { width:100%; min-height:48px; padding:9px 12px; color:#e0e0e0; background:#33293f; border:1.5px solid #6209cf; border-radius:10px; cursor:pointer; transition:background-color .15s ease-in-out,transform .2s cubic-bezier(.2,2.5,1,1); }
+    .games button { width:100%; padding:0; overflow:hidden; color:#e0e0e0; background:#33293f; border:1.5px solid #6209cf; border-radius:10px; cursor:pointer; transition:background-color .15s ease-in-out,transform .2s cubic-bezier(.2,2.5,1,1); }
     .games button:hover { background:#7139b6; }
     .games button:active { transform:scale(.9); }
+    .game-cover { display:block; width:100%; aspect-ratio:16/10; object-fit:cover; background:#09090b; border-bottom:1px solid #6209cf; }
+    .game-cover.fnaf { object-fit:contain; object-position:center 15%; background:radial-gradient(circle,#2d2830,#050505 70%); }
+    .game-cover.doom { object-position:center 24%; }
+    .game-label { display:block; padding:12px 10px; font-weight:600; }
     .empty { display:none; margin:35px 0; color:#aaa; }
     footer { margin-top:55px; padding-top:20px; border-top:1px solid #ffffff1c; color:#777; font-size:11px; }
     footer a,footer a:visited { color:#999; text-decoration:underline; }
@@ -50,9 +54,9 @@
     <h2>games:</h2>
     <div class="search-container"><input id="search" type="search" placeholder="search here:" aria-label="Search games"></div>
     <ul id="games-list">
-      <li class="games" data-name="slope 3d arcade"><button id="slope">Slope 3D</button></li>
-      <li class="games" data-name="five nights at freddy's fnaf horror"><button id="fnaf">Five Nights at Freddy's</button></li>
-      <li class="games" data-name="doom 1 doom 1993 shooter"><button id="doom">Doom 1</button></li>
+      <li class="games" data-name="slope 3d arcade"><button id="slope"><img class="game-cover" src="assets/covers/slope.webp" alt="Slope 3D cover"><span class="game-label">Slope 3D</span></button></li>
+      <li class="games" data-name="five nights at freddy's fnaf horror"><button id="fnaf"><img class="game-cover fnaf" src="assets/covers/fnaf.png" alt="Five Nights at Freddy's cover"><span class="game-label">Five Nights at Freddy's</span></button></li>
+      <li class="games" data-name="doom 1 doom 1993 shooter"><button id="doom"><img class="game-cover doom" src="assets/covers/doom.png" alt="Doom 1 cover"><span class="game-label">Doom 1</span></button></li>
     </ul>
     <p class="empty" id="empty">no games found.</p>
 
