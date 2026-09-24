@@ -57,6 +57,7 @@
       <li class="games" data-name="slope 3d arcade"><button id="slope"><img class="game-cover" src="assets/covers/slope.webp" alt="Slope 3D cover"><span class="game-label">Slope 3D</span></button></li>
       <li class="games" data-name="five nights at freddy's fnaf horror"><button id="fnaf"><img class="game-cover fnaf" src="assets/covers/fnaf.png" alt="Five Nights at Freddy's cover"><span class="game-label">Five Nights at Freddy's</span></button></li>
       <li class="games" data-name="doom 1 doom 1993 shooter"><button id="doom"><img class="game-cover doom" src="assets/covers/doom.png" alt="Doom 1 cover"><span class="game-label">Doom 1</span></button></li>
+      <li class="games" data-name="cookie clicker idle incremental cheats debug"><button id="cookie"><img class="game-cover" src="assets/covers/cookie.png" alt="Cookie Clicker cover"><span class="game-label">Cookie Clicker</span></button></li>
     </ul>
     <p class="empty" id="empty">no games found.</p>
 
@@ -79,6 +80,7 @@
     });
     document.getElementById('fnaf').addEventListener('click',function(){location.href='games/fnaf1/index.html';});
     document.getElementById('doom').addEventListener('click',function(){location.href='games/doom1/index.html';});
+    document.getElementById('cookie').addEventListener('click',function(){location.href='games/cookieclicker/index.html';});
     document.getElementById('back').addEventListener('click',function(){player.classList.remove('open');document.body.style.overflow='';});
     document.getElementById('fullscreen').addEventListener('click',function(){if(gameInstance&&gameInstance.SetFullscreen)gameInstance.SetFullscreen(1);else if(player.requestFullscreen)player.requestFullscreen();});
     document.getElementById('search').addEventListener('input',function(){
