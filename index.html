@@ -52,6 +52,7 @@
     <ul id="games-list">
       <li class="games" data-name="slope 3d arcade"><button id="slope">Slope 3D</button></li>
       <li class="games" data-name="five nights at freddy's fnaf horror"><button id="fnaf">Five Nights at Freddy's</button></li>
+      <li class="games" data-name="doom 1 doom 1993 shooter"><button id="doom">Doom 1</button></li>
     </ul>
     <p class="empty" id="empty">no games found.</p>
 
@@ -73,6 +74,7 @@
       if(!gameInstance)gameInstance=UnityLoader.instantiate('gameContainer','Build/slope.json',{onProgress:UnityProgress,Module:{onRuntimeInitialized:function(){UnityProgress(gameInstance,'complete');document.getElementById('loading').style.display='none';}}});
     });
     document.getElementById('fnaf').addEventListener('click',function(){location.href='games/fnaf1/index.html';});
+    document.getElementById('doom').addEventListener('click',function(){location.href='games/doom1/index.html';});
     document.getElementById('back').addEventListener('click',function(){player.classList.remove('open');document.body.style.overflow='';});
     document.getElementById('fullscreen').addEventListener('click',function(){if(gameInstance&&gameInstance.SetFullscreen)gameInstance.SetFullscreen(1);else if(player.requestFullscreen)player.requestFullscreen();});
     document.getElementById('search').addEventListener('input',function(){
