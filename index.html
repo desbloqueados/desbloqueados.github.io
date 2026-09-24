@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3000a0">
+  <title>Unblocked Games</title>
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <style>
+    /* UI adapted from ultimateunblocked by demonickatsu and gdi (MIT). */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    * { box-sizing:border-box; }
+    html { min-height:100%; font-family:"Montserrat",sans-serif; text-align:center; }
+    body { min-height:100vh; margin:0; padding:42px 20px 70px; color:#b0b0b0; background:radial-gradient(circle at top right,#3000a0 0%,#000 150vh) fixed; }
+    main { width:min(960px,100%); margin:auto; }
+    h1 { margin:0 0 8px; color:#e8e8e8; font-size:clamp(34px,7vw,62px); letter-spacing:-2px; }
+    .intro { margin:0 0 34px; color:#aaa; font-size:14px; }
+    h2 { margin:42px 0 16px; color:#ddd; font-size:18px; }
+    a { color:#10c8f7; text-decoration:none; }
+    a:visited { color:#a23ce6; }
+    .search-container { width:100%; display:flex; justify-content:center; margin-bottom:28px; }
+    #search { width:100%; max-width:800px; padding:12px 16px; color:#e0e0e0; background:#33293f; border:1px solid #6209cf; border-radius:10px; outline:none; text-align:center; transition:transform .25s cubic-bezier(.2,2.5,1,1); }
+    #search:focus { transform:scale(1.03); border-color:#9748f8; }
+    #search::placeholder { color:#9b93a4; }
+    #games-list { display:grid; grid-template-columns:repeat(3,1fr); gap:9px; margin:0; padding:0; list-style:none; }
+    .games button { width:100%; min-height:48px; padding:9px 12px; color:#e0e0e0; background:#33293f; border:1.5px solid #6209cf; border-radius:10px; cursor:pointer; transition:background-color .15s ease-in-out,transform .2s cubic-bezier(.2,2.5,1,1); }
+    .games button:hover { background:#7139b6; }
+    .games button:active { transform:scale(.9); }
+    .empty { display:none; margin:35px 0; color:#aaa; }
+    footer { margin-top:55px; padding-top:20px; border-top:1px solid #ffffff1c; color:#777; font-size:11px; }
+    footer a,footer a:visited { color:#999; text-decoration:underline; }
+    #player { position:fixed; inset:0; z-index:50; display:none; background:#050505; }
+    #player.open { display:block; }
+    .player-tools { position:absolute; z-index:5; top:10px; left:10px; right:10px; display:flex; justify-content:space-between; pointer-events:none; }
+    .player-tools button { height:38px; padding:0 12px; color:#eee; background:#231b2dcc; border:1px solid #7d45c8; border-radius:8px; cursor:pointer; pointer-events:auto; }
+    .webgl-content,#gameContainer { position:absolute!important; inset:0; width:100%!important; height:100%!important; margin:0!important; }
+    #loading { position:absolute; inset:0; z-index:3; display:grid; place-items:center; color:#b797e5; font-size:13px; }
+    @media(max-width:650px){ body{padding:28px 14px 80px}#games-list{grid-template-columns:1fr 1fr}.intro{font-size:13px} }
+    @media(max-width:390px){ #games-list{grid-template-columns:1fr} }
+  </style>
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="TemplateData/unityloader41.js"></script>
+</head>
+<body>
+  <main>
+    <p><strong>welcome to</strong></p>
+    <h1>unblocked games</h1>
+    <p class="intro">pick a game. no downloads, no account.</p>
+
+    <h2>games:</h2>
+    <div class="search-container"><input id="search" type="search" placeholder="search here:" aria-label="Search games"></div>
+    <ul id="games-list">
+      <li class="games" data-name="slope 3d arcade"><button id="slope">Slope 3D</button></li>
+      <li class="games" data-name="five nights at freddy's fnaf horror"><button id="fnaf">Five Nights at Freddy's</button></li>
+    </ul>
+    <p class="empty" id="empty">no games found.</p>
+
+    <footer>
+      UI adapted from <a href="https://github.com/ultimateunblocked1/ultimateunblocked1.github.io" target="_blank" rel="noreferrer">ultimateunblocked</a> by demonickatsu and gdi under the MIT License.
+    </footer>
+  </main>
+
+  <section id="player" aria-label="Slope 3D game">
+    <div class="player-tools"><button id="back">← games</button><button id="fullscreen">fullscreen</button></div>
+    <div id="loading">loading slope 3d...</div>
+    <div class="webgl-content"><div id="gameContainer"></div></div>
+  </section>
+
+  <script>
+    var gameInstance=null,player=document.getElementById('player');
+    document.getElementById('slope').addEventListener('click',function(){
+      player.classList.add('open');document.body.style.overflow='hidden';
+      if(!gameInstance)gameInstance=UnityLoader.instantiate('gameContainer','Build/slope.json',{onProgress:UnityProgress,Module:{onRuntimeInitialized:function(){UnityProgress(gameInstance,'complete');document.getElementById('loading').style.display='none';}}});
+    });
+    document.getElementById('fnaf').addEventListener('click',function(){location.href='games/fnaf1/index.html';});
+    document.getElementById('back').addEventListener('click',function(){player.classList.remove('open');document.body.style.overflow='';});
+    document.getElementById('fullscreen').addEventListener('click',function(){if(gameInstance&&gameInstance.SetFullscreen)gameInstance.SetFullscreen(1);else if(player.requestFullscreen)player.requestFullscreen();});
+    document.getElementById('search').addEventListener('input',function(){
+      var query=this.value.toLowerCase().trim(),shown=0;
+      document.querySelectorAll('.games').forEach(function(game){var match=game.dataset.name.includes(query);game.style.display=match?'list-item':'none';if(match)shown++;});
+      document.getElementById('empty').style.display=shown?'none':'block';
+    });
+  </script>
+</body>
+</html>
