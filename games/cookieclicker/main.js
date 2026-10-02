@@ -16864,7 +16864,11 @@ window.onload=function()
 				LoadLang('loc/'+lang+'.js?v='+Game.version,function(){
 					var launch=function(){
 						Game.Launch();
-						if (top!=self) Game.ErrorFrame();
+						// Allow this site's player to embed its local copy.
+						var embeddedElsewhere=false;
+						try {embeddedElsewhere=top!=self && top.location.origin!=self.location.origin;}
+						catch (err) {embeddedElsewhere=true;}
+						if (embeddedElsewhere) Game.ErrorFrame();
 						else
 						{
 							console.log('[=== '+choose([

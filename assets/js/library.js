@@ -18,40 +18,20 @@
   function paintCover(canvas, game) {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
-    let hash = 0;
-    for (const letter of game.id) hash = ((hash << 5) - hash + letter.charCodeAt(0)) | 0;
-    const hue = ((hash % 360) + 360) % 360;
-    const gradient = ctx.createLinearGradient(0, 0, 480, 300);
-    gradient.addColorStop(0, `hsl(${hue}, 60%, 28%)`);
-    gradient.addColorStop(1, `hsl(${(hue + 45) % 360}, 70%, 9%)`);
-    ctx.fillStyle = gradient;
+    ctx.fillStyle = '#09090b';
     ctx.fillRect(0, 0, 480, 300);
-    ctx.strokeStyle = 'rgba(255,255,255,.07)';
-    for (let x = 0; x < 480; x += 40) {
-      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, 300); ctx.stroke();
-    }
-    for (let y = 0; y < 300; y += 40) {
-      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(480, y); ctx.stroke();
-    }
-    ctx.fillStyle = 'rgba(255,255,255,.9)';
-    ctx.font = 'bold 76px sans-serif';
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    const initials = game.name.split(/\s+/).slice(0, 3).map(word => word[0]).join('');
-    ctx.fillText(initials.toUpperCase(), 240, 142, 400);
-    ctx.font = '18px sans-serif';
-    ctx.fillStyle = 'rgba(255,255,255,.65)';
-    ctx.fillText('PLAY GAME', 240, 230);
     if (!game.cover) return;
     const image = new Image();
     image.onload = function () {
-      const contain = game.id === 'fnaf1';
+      const contain = game.coverFit === 'contain' || game.id === 'fnaf1';
       const scale = contain ? Math.min(480 / image.width, 300 / image.height)
         : Math.max(480 / image.width, 300 / image.height);
       const width = image.width * scale, height = image.height * scale;
       ctx.fillStyle = '#09090b'; ctx.fillRect(0, 0, 480, 300);
       ctx.drawImage(image, (480 - width) / 2, (300 - height) / 2, width, height);
+      canvas.dataset.artworkLoaded = 'true';
     };
+    image.onerror = function () { canvas.dataset.artworkLoaded = 'false'; };
     image.src = game.cover;
   }
 

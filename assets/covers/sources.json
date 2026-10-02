@@ -1,0 +1,1275 @@
+{
+  "checkedOn": "2026-10-01",
+  "note": "Game artwork belongs to the respective creators. Screenshots were captured from the actual game pages; no generated logos are used.",
+  "covers": [
+    {
+      "id": "slope",
+      "name": "Slope 3D",
+      "cover": "assets/covers/slope.webp",
+      "source": "assets/covers/slope.webp",
+      "kind": "existing game artwork",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "fnaf1",
+      "name": "Five Nights at Freddy's",
+      "cover": "assets/covers/fnaf.png",
+      "source": "assets/covers/fnaf.png",
+      "kind": "existing game artwork",
+      "width": 747,
+      "height": 1680
+    },
+    {
+      "id": "doom",
+      "name": "Doom 1",
+      "cover": "assets/covers/doom.png",
+      "source": "assets/covers/doom.png",
+      "kind": "existing game artwork",
+      "width": 271,
+      "height": 410
+    },
+    {
+      "id": "cookie-clicker",
+      "name": "Cookie Clicker",
+      "cover": "assets/covers/cookie.png",
+      "source": "assets/covers/cookie.png",
+      "kind": "existing game artwork",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "drift-hunters",
+      "name": "Drift Hunters",
+      "cover": "assets/covers/drift-hunters.png",
+      "source": "assets/covers/drift-hunters.png",
+      "kind": "existing game artwork",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "hexgl",
+      "name": "HexGL Racing",
+      "cover": "assets/covers/hexgl.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/HexGL/icon_256.png",
+      "width": 256,
+      "height": 256,
+      "kind": "game artwork"
+    },
+    {
+      "id": "awesome-tanks-2",
+      "name": "Awesome Tanks 2",
+      "cover": "assets/covers/awesome-tanks-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/tankawe2.webp",
+      "width": 323,
+      "height": 337,
+      "kind": "game artwork"
+    },
+    {
+      "id": "basket-random",
+      "name": "Basket Random",
+      "cover": "assets/covers/basket-random.png",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/basketr.png",
+      "width": 412,
+      "height": 434,
+      "kind": "game artwork"
+    },
+    {
+      "id": "basketball-stars",
+      "name": "Basketball Stars",
+      "cover": "assets/covers/basketball-stars.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/basketball-stars/icon.png",
+      "kind": "game artwork",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": "bit-planes",
+      "name": "Bit Planes",
+      "cover": "assets/covers/bit-planes.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/bit-planes/bitplanes.png",
+      "width": 136,
+      "height": 130,
+      "kind": "game artwork"
+    },
+    {
+      "id": "bitlife",
+      "name": "Bitlife",
+      "cover": "assets/covers/bitlife.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/Bitlife.webp",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "block-blast",
+      "name": "Block Blast",
+      "cover": "assets/covers/block-blast.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/blockblast.webp",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "bloxors",
+      "name": "Bloxors",
+      "cover": "assets/covers/bloxors.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/bloxors/block.png",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "BTD-1",
+      "name": "Bloons TD",
+      "cover": "assets/covers/BTD-1.jpg",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/bloonstd/bloonstd.jpg",
+      "width": 167,
+      "height": 167,
+      "kind": "game artwork"
+    },
+    {
+      "id": "BTD-2",
+      "name": "Bloons TD 2",
+      "cover": "assets/covers/BTD-2.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/bloonstd2/bloonstd2.png",
+      "width": 962,
+      "height": 962,
+      "kind": "game artwork"
+    },
+    {
+      "id": "BTD-3",
+      "name": "Bloons TD 3",
+      "cover": "assets/covers/BTD-3.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/btd3/icon.png",
+      "kind": "game artwork",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": "BTD-4",
+      "name": "Bloons TD 4",
+      "cover": "assets/covers/BTD-4.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/btd4.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "BTD-5",
+      "name": "Bloons TD 5",
+      "cover": "assets/covers/BTD-5.jpg",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/btd5/logo.jpg",
+      "kind": "game artwork",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "boxing-random",
+      "name": "Boxing Random",
+      "cover": "assets/covers/boxing-random.png",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/boxingr.png",
+      "width": 348,
+      "height": 357,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Burrito-Bison",
+      "name": "Burrito Bison",
+      "cover": "assets/covers/Burrito-Bison.png",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/dbf16e68409399.5b5b98e4408e0.png",
+      "width": 1920,
+      "height": 1080,
+      "kind": "game artwork"
+    },
+    {
+      "id": "challenge-the-runners",
+      "name": "Challenge The Runners",
+      "cover": "assets/covers/challenge-the-runners.webp",
+      "source": "https://nintendoboi2222.github.io/games/challenge-the-runners/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "chrome-dino",
+      "name": "Chrome Dino",
+      "cover": "assets/covers/chrome-dino.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/dino.webp",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "clickerheros",
+      "name": "Clicker Heros",
+      "cover": "assets/covers/clickerheros.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/clickerheroes/clicker-heroes.png",
+      "width": 320,
+      "height": 320,
+      "kind": "game artwork"
+    },
+    {
+      "id": "cluster-truck",
+      "name": "Cluster Truck",
+      "cover": "assets/covers/cluster-truck.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/cluster.webp",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "cod-zombies",
+      "name": "COD Zombies",
+      "cover": "assets/covers/cod-zombies.webp",
+      "source": "https://nintendoboi2222.github.io/games/cod-zombies/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "craft-mine",
+      "name": "Craft Mine",
+      "cover": "assets/covers/craft-mine.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/craftmine.webp",
+      "width": 225,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "crazy-cattle-3d",
+      "name": "Crazy Cattle 3D",
+      "cover": "assets/covers/crazy-cattle-3d.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/crazy-cattle-3d.webp",
+      "width": 2922,
+      "height": 2258,
+      "kind": "game artwork"
+    },
+    {
+      "id": "crossy-road",
+      "name": "Crossy Road",
+      "cover": "assets/covers/crossy-road.webp",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/crossyroad/crossyroad.png",
+      "width": 600,
+      "height": 600,
+      "kind": "game artwork"
+    },
+    {
+      "id": "deal-or-no-deal",
+      "name": "Deal or No Deal",
+      "cover": "assets/covers/deal-or-no-deal.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/DOND.webp",
+      "width": 180,
+      "height": 180,
+      "kind": "game artwork"
+    },
+    {
+      "id": "DNAtoRNAandAminoAcids",
+      "name": "DNA Converter",
+      "cover": "assets/covers/DNAtoRNAandAminoAcids.webp",
+      "source": "https://nintendoboi2222.github.io/games/DNAtoRNAandAminoAcids/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "drift-boss",
+      "name": "Drift Boss",
+      "cover": "assets/covers/drift-boss.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/DRIFTBOSS.webp",
+      "width": 225,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "duck-life-1",
+      "name": "Duck Life 1",
+      "cover": "assets/covers/duck-life-1.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/ducklife1/ducklife.png",
+      "width": 551,
+      "height": 551,
+      "kind": "game artwork"
+    },
+    {
+      "id": "duck-life-2",
+      "name": "Duck Life 2",
+      "cover": "assets/covers/duck-life-2.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/ducklife2/ducklife2.png",
+      "width": 600,
+      "height": 600,
+      "kind": "game artwork"
+    },
+    {
+      "id": "duck-life-3",
+      "name": "Duck Life 3",
+      "cover": "assets/covers/duck-life-3.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/ducklife3/duck.png",
+      "width": 200,
+      "height": 200,
+      "kind": "game artwork"
+    },
+    {
+      "id": "duck-life-4",
+      "name": "Duck Life 4",
+      "cover": "assets/covers/duck-life-4.avif",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/ducklife4/icon.png",
+      "width": 600,
+      "height": 600,
+      "kind": "game artwork"
+    },
+    {
+      "id": "dune-2",
+      "name": "Dune 2",
+      "cover": "assets/covers/dune-2.png",
+      "source": "https://nintendoboi2222.github.io/games/dune-2/img/touch-icon-180.png",
+      "width": 180,
+      "height": 180,
+      "kind": "game artwork"
+    },
+    {
+      "id": "goofy-ahh-dune",
+      "name": "\"Dune\"",
+      "cover": "assets/covers/goofy-ahh-dune.webp",
+      "source": "https://nintendoboi2222.github.io/games/goofy-ahh-dune/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "eggy-car",
+      "name": "Eggy Car",
+      "cover": "assets/covers/eggy-car.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/EGGYCAR.webp",
+      "width": 427,
+      "height": 384,
+      "kind": "game artwork"
+    },
+    {
+      "id": "evil-glitch",
+      "name": "Evil Glitch",
+      "cover": "assets/covers/evil-glitch.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/EVILG.webp",
+      "width": 160,
+      "height": 160,
+      "kind": "game artwork"
+    },
+    {
+      "id": "FNAF-2",
+      "name": "Five Nights at Freddys 2",
+      "cover": "assets/covers/FNAF-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/fnaf2.webp",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "FNAF-3",
+      "name": "Five Nights at Freddys 3",
+      "cover": "assets/covers/FNAF-3.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/fnaf3.webp",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "flappy-birb",
+      "name": "Flappy Bird",
+      "cover": "assets/covers/flappy-birb.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/FlappyBird.webp",
+      "width": 220,
+      "height": 220,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Funny-Shooter-2",
+      "name": "Funny Shooter 2",
+      "cover": "assets/covers/Funny-Shooter-2.jpg",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/funnyshooter2/894abba63a6b23fed823f404831f444f.jpeg",
+      "kind": "game artwork",
+      "width": 628,
+      "height": 628
+    },
+    {
+      "id": "geometrydash",
+      "name": "Geometry Dash",
+      "cover": "assets/covers/geometrydash.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/geo.webp",
+      "width": 225,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "getaway-shootout",
+      "name": "Getaway Shootout",
+      "cover": "assets/covers/getaway-shootout.jpg",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/getaway-shootout/img/images.jpg",
+      "width": 200,
+      "height": 200,
+      "kind": "game artwork"
+    },
+    {
+      "id": "gimme-the-aripod",
+      "name": "Gimme the Airpod",
+      "cover": "assets/covers/gimme-the-aripod.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/gimme-the-airpod/img/logo.png",
+      "width": 800,
+      "height": 800,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Google-snake",
+      "name": "Google Snake",
+      "cover": "assets/covers/Google-snake.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/google-snake/img/snake.png",
+      "width": 160,
+      "height": 160,
+      "kind": "game artwork"
+    },
+    {
+      "id": "grind-craft",
+      "name": "Grind Craft",
+      "cover": "assets/covers/grind-craft.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/GrindCraft.webp",
+      "width": 225,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "helicopter",
+      "name": "Helicopter",
+      "cover": "assets/covers/helicopter.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/helicopter/helicopter.png",
+      "width": 1001,
+      "height": 1001,
+      "kind": "game artwork"
+    },
+    {
+      "id": "hextris",
+      "name": "Hextris",
+      "cover": "assets/covers/hextris.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/hextris/images/hextris-logo.png",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "idle-breakout",
+      "name": "Idle Breakout",
+      "cover": "assets/covers/idle-breakout.png",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/idlebr.png",
+      "width": 225,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "idle-web-tycoon",
+      "name": "Idle Web Tycoon",
+      "cover": "assets/covers/idle-web-tycoon.jpg",
+      "source": "https://cdn3.kongcdn.com/game_icons/0055/4630/Icon_250x200_.jpg?i10c=img.resize%28width%3A250%29",
+      "kind": "game artwork",
+      "width": 250,
+      "height": 200
+    },
+    {
+      "id": "impossiblequiz",
+      "name": "Impossible Quiz",
+      "cover": "assets/covers/impossiblequiz.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/impqz.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "impossiblequiz-2",
+      "name": "Impossible Quiz 2",
+      "cover": "assets/covers/impossiblequiz-2.webp",
+      "source": "https://static.wikia.nocookie.net/impossible-quiz/images/d/dc/TIQ2_logo.png/revision/latest?cb=20190708205416",
+      "width": 1103,
+      "height": 420,
+      "kind": "game artwork"
+    },
+    {
+      "id": "jacksmith",
+      "name": "JackSmith",
+      "cover": "assets/covers/jacksmith.jpg",
+      "source": "https://sc.filehippo.net/images/t_app-icon-l/p/a8809def-ecf0-405c-a2ab-60231221e6bf/1984057876/jacksmith-logo",
+      "kind": "game artwork",
+      "width": 448,
+      "height": 448
+    },
+    {
+      "id": "js-roulette",
+      "name": "Javascript Roulette",
+      "cover": "assets/covers/js-roulette.webp",
+      "source": "https://nintendoboi2222.github.io/games/js-roulette/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "learn-to-fly",
+      "name": "Learn To Fly",
+      "cover": "assets/covers/learn-to-fly.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/ltf.webp",
+      "width": 887,
+      "height": 665,
+      "kind": "game artwork"
+    },
+    {
+      "id": "learn-to-fly-2",
+      "name": "Learn To Fly 2",
+      "cover": "assets/covers/learn-to-fly-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/ltf2.webp",
+      "width": 599,
+      "height": 350,
+      "kind": "game artwork"
+    },
+    {
+      "id": "learn-to-fly-3",
+      "name": "Learn To Fly 3",
+      "cover": "assets/covers/learn-to-fly-3.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/ltf3.webp",
+      "width": 250,
+      "height": 200,
+      "kind": "game artwork"
+    },
+    {
+      "id": "learn-to-fly-idle",
+      "name": "Learn To Fly Idle",
+      "cover": "assets/covers/learn-to-fly-idle.jpg",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/learntoflyidle/icon.jpg",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "madalin-stunt-cars-2",
+      "name": "Madalin Stunt Cars 2",
+      "cover": "assets/covers/madalin-stunt-cars-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/113347.webp",
+      "width": 200,
+      "height": 200,
+      "kind": "game artwork"
+    },
+    {
+      "id": "makesureitsclosed",
+      "name": "Make Sure Its Closed",
+      "cover": "assets/covers/makesureitsclosed.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/MSIC.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "missiles",
+      "name": "Missiles",
+      "cover": "assets/covers/missiles.webp",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/missiles/miss.png",
+      "width": 230,
+      "height": 230,
+      "kind": "game artwork"
+    },
+    {
+      "id": "monkey-mart",
+      "name": "Monkey Mart",
+      "cover": "assets/covers/monkey-mart.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/monkeymart/unnamed.png",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "moto-x3m",
+      "name": "Moto X3M",
+      "cover": "assets/covers/moto-x3m.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/motox3m.webp",
+      "width": 446,
+      "height": 448,
+      "kind": "game artwork"
+    },
+    {
+      "id": "murder",
+      "name": "Murder",
+      "cover": "assets/covers/murder.webp",
+      "source": "https://nintendoboi2222.github.io/games/murder/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "n-gon",
+      "name": "n-gon",
+      "cover": "assets/covers/n-gon.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/n-gon/bot.png",
+      "width": 166,
+      "height": 166,
+      "kind": "game artwork"
+    },
+    {
+      "id": "rusty-submarine",
+      "name": "My Rusty Submarine",
+      "cover": "assets/covers/rusty-submarine.webp",
+      "source": "https://nintendoboi2222.github.io/games/rusty-submarine/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "nintendo-64",
+      "name": "Nintendo 64 Emulator",
+      "cover": "assets/covers/nintendo-64.webp",
+      "source": "https://nintendoboi2222.github.io/games/nintendo-64/dist/index.html",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "oh-flip",
+      "name": "Oh, Flip",
+      "cover": "assets/covers/oh-flip.webp",
+      "source": "https://nintendoboi2222.github.io/games/oh-flip/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "other-tag",
+      "name": "Other Tag",
+      "cover": "assets/covers/other-tag.webp",
+      "source": "https://nintendoboi2222.github.io/games/other-tag/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "OVO",
+      "name": "OVO",
+      "cover": "assets/covers/OVO.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/OVO.webp",
+      "width": 281,
+      "height": 273,
+      "kind": "game artwork"
+    },
+    {
+      "id": "pandemic-2",
+      "name": "Pandemic 2",
+      "cover": "assets/covers/pandemic-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/PANDEM2.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papa-louie",
+      "name": "Papa Louie",
+      "cover": "assets/covers/papa-louie.jpg",
+      "source": "https://www.culinaryschools.org/kids-games/papa-louie/papa-louie.jpg",
+      "kind": "game artwork",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "id": "papas-bakeria",
+      "name": "Papa's Bakeria",
+      "cover": "assets/covers/papas-bakeria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/bakeria.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-burgeria",
+      "name": "Papa's Burgeria",
+      "cover": "assets/covers/papas-burgeria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/papasbur.webp",
+      "width": 600,
+      "height": 600,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-cheeseria",
+      "name": "Papa's Cheeseria",
+      "cover": "assets/covers/papas-cheeseria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/cheeseria.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-cupcakeria",
+      "name": "Papa's Cupcakeria",
+      "cover": "assets/covers/papas-cupcakeria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/cupcakeria.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-donuteria",
+      "name": "Papa's Donuteria",
+      "cover": "assets/covers/papas-donuteria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/donuteria.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-freezeria",
+      "name": "Papa's Freezeria",
+      "cover": "assets/covers/papas-freezeria.jpg",
+      "source": "https://www.culinaryschools.org/kids-games/papas-freezeria/papas-freezeria.jpg",
+      "width": 1000,
+      "height": 1000,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-hotdoggeria",
+      "name": "Papa's Hotdoggeria",
+      "cover": "assets/covers/papas-hotdoggeria.jpg",
+      "source": "https://www.culinaryschools.org/kids-games/papas-hot-doggeria/papas-hot-doggeria.jpg",
+      "width": 1000,
+      "height": 1000,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-pancakeria",
+      "name": "Papa's Pancakeria",
+      "cover": "assets/covers/papas-pancakeria.jpg",
+      "source": "https://www.culinaryschools.org/kids-games/papas-pancakeria/papas-pancakeria.jpg",
+      "width": 1000,
+      "height": 1000,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-pizzeria",
+      "name": "Papa's Pizzeria",
+      "cover": "assets/covers/papas-pizzeria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/pizzeria.webp",
+      "width": 100,
+      "height": 100,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-scooperia",
+      "name": "Papa's Scooperia",
+      "cover": "assets/covers/papas-scooperia.jpg",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/scoop.jpeg",
+      "width": 224,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-sushiria",
+      "name": "Papa's Sushiria",
+      "cover": "assets/covers/papas-sushiria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/sushiria.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-taco-mia",
+      "name": "Papa's Taco Mia",
+      "cover": "assets/covers/papas-taco-mia.jpg",
+      "source": "https://www.culinaryschools.org/kids-games/papas-taco-mia/papas-taco-mia.jpg",
+      "width": 1000,
+      "height": 1000,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-wingeria",
+      "name": "Papa's Wingeria",
+      "cover": "assets/covers/papas-wingeria.jpg",
+      "source": "https://www.culinaryschools.org/kids-games/papas-wingeria/papas-wingeria.jpg",
+      "width": 1000,
+      "height": 1000,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papas-pastaria",
+      "name": "Papa's Pastaria",
+      "cover": "assets/covers/papas-pastaria.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/pastaria.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "papery-planes",
+      "name": "Papery Planes",
+      "cover": "assets/covers/papery-planes.jpg",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/external/games10-papery-planes.jpg",
+      "width": 225,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "PC-breakdown",
+      "name": "PC breakdown",
+      "cover": "assets/covers/PC-breakdown.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/PcB.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "pcraft",
+      "name": "P.Craft",
+      "cover": "assets/covers/pcraft.webp",
+      "source": "https://nintendoboi2222.github.io/games/pcraft/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "poly-track",
+      "name": "Poly Track",
+      "cover": "assets/covers/poly-track.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/polytrack.webp",
+      "width": 232,
+      "height": 217,
+      "kind": "game artwork"
+    },
+    {
+      "id": "not-a-proxy-trust-me-here",
+      "name": "Not a Proxy",
+      "cover": "assets/covers/not-a-proxy-trust-me-here.webp",
+      "source": "https://nintendoboi2222.github.io/games/not-a-proxy-trust-me-here/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "push-your-luck",
+      "name": "Push Your Luck",
+      "cover": "assets/covers/push-your-luck.png",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/external/games2-push-your-luck.png",
+      "width": 531,
+      "height": 470,
+      "kind": "game artwork"
+    },
+    {
+      "id": "ragdoll-archers",
+      "name": "Ragdoll Archers",
+      "cover": "assets/covers/ragdoll-archers.webp",
+      "source": "https://nintendoboi2222.github.io/games/ragdoll-archers/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "ragdoll-hit",
+      "name": "Ragdoll Hit",
+      "cover": "assets/covers/ragdoll-hit.png",
+      "source": "https://media.githubusercontent.com/media/bubbls/UGS-Assets/main/ragdoll-hit/thumbnail.png",
+      "width": 628,
+      "height": 628,
+      "kind": "game artwork"
+    },
+    {
+      "id": "random-r6-op",
+      "name": "Random R6 Op",
+      "cover": "assets/covers/random-r6-op.webp",
+      "source": "https://nintendoboi2222.github.io/games/random-r6-op/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "REAL-FS",
+      "name": "Real Flight Simulator",
+      "cover": "assets/covers/REAL-FS.webp",
+      "source": "https://nintendoboi2222.github.io/games/REAL-FS/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "retro-bowl",
+      "name": "Retro Bowl",
+      "cover": "assets/covers/retro-bowl.avif",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/retrobowl.avif",
+      "width": 314,
+      "height": 314,
+      "kind": "game artwork"
+    },
+    {
+      "id": "retro-bowl-collage",
+      "name": "Retro Bowl Collage",
+      "cover": "assets/covers/retro-bowl-collage.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/retrobowlcollege/unnamed.png",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Riddle-school-1",
+      "name": "Riddle School 1",
+      "cover": "assets/covers/Riddle-school-1.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/rid.webp",
+      "width": 447,
+      "height": 403,
+      "kind": "game artwork"
+    },
+    {
+      "id": "riddle-school-2",
+      "name": "Riddle School 2",
+      "cover": "assets/covers/riddle-school-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/rid2.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Riddle-School-3",
+      "name": "Riddle School 3",
+      "cover": "assets/covers/Riddle-School-3.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/rid3.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Riddle-School-4",
+      "name": "Riddle School 4",
+      "cover": "assets/covers/Riddle-School-4.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/rid4.webp",
+      "width": 447,
+      "height": 403,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Riddle-School-5",
+      "name": "Riddle School 5",
+      "cover": "assets/covers/Riddle-School-5.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/rid5.webp",
+      "width": 300,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "rooftopsnipers",
+      "name": "Rooftop Snipers",
+      "cover": "assets/covers/rooftopsnipers.png",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/rooftop-snipers.png",
+      "width": 745,
+      "height": 422,
+      "kind": "game artwork"
+    },
+    {
+      "id": "run-2",
+      "name": "Run 2",
+      "cover": "assets/covers/run-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/run2.webp",
+      "width": 1024,
+      "height": 1024,
+      "kind": "game artwork"
+    },
+    {
+      "id": "snow-rider",
+      "name": "Snow Rider",
+      "cover": "assets/covers/snow-rider.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/snowrider.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "snake-io",
+      "name": "Snake.io",
+      "cover": "assets/covers/snake-io.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/SNAKEIO.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "soccer-random",
+      "name": "Soccer Random",
+      "cover": "assets/covers/soccer-random.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/soccerrandom/test.png",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "sonic-cd",
+      "name": "Sonic CD",
+      "cover": "assets/covers/sonic-cd.webp",
+      "source": "https://nintendoboi2222.github.io/games/sonic-cd/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "sort-the-court",
+      "name": "Sort the Court",
+      "cover": "assets/covers/sort-the-court.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/SORTTHECOURT.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "space-company",
+      "name": "Space Company",
+      "cover": "assets/covers/space-company.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/spacecompany.webp",
+      "width": 511,
+      "height": 472,
+      "kind": "game artwork"
+    },
+    {
+      "id": "SD",
+      "name": "Stickman Destruction",
+      "cover": "assets/covers/SD.webp",
+      "source": "https://nintendoboi2222.github.io/games/SD/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "stickman-hook",
+      "name": "Stickman Hook",
+      "cover": "assets/covers/stickman-hook.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/890P.webp",
+      "width": 260,
+      "height": 260,
+      "kind": "game artwork"
+    },
+    {
+      "id": "SRP",
+      "name": "Stickman Ragdoll Playground",
+      "cover": "assets/covers/SRP.webp",
+      "source": "https://nintendoboi2222.github.io/games/SRP/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "superhot",
+      "name": "Superhot",
+      "cover": "assets/covers/superhot.jpg",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/superhot.jpeg",
+      "width": 225,
+      "height": 225,
+      "kind": "game artwork"
+    },
+    {
+      "id": "SM63",
+      "name": "Super Mario 63",
+      "cover": "assets/covers/SM63.jpg",
+      "source": "https://img.flashlegacy.com/game-icons/v87Le4QEoa/1200x630.jpg",
+      "kind": "game artwork",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "id": "SM64",
+      "name": "Super Mario 64",
+      "cover": "assets/covers/SM64.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/64.webp",
+      "width": 960,
+      "height": 960,
+      "kind": "game artwork"
+    },
+    {
+      "id": "subway-surfers-beijing",
+      "name": "Subway Surfers Beijing",
+      "cover": "assets/covers/subway-surfers-beijing.webp",
+      "source": "https://nintendoboi2222.github.io/games/subway-surfers-beijing/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "subwaysurfers-sf",
+      "name": "Subway Surfers San Francisco",
+      "cover": "assets/covers/subwaysurfers-sf.webp",
+      "source": "https://nintendoboi2222.github.io/games/subwaysurfers-sf/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "tag",
+      "name": "TAG",
+      "cover": "assets/covers/tag.webp",
+      "source": "https://nintendoboi2222.github.io/games/tag/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "tanuki-sunset-halloween",
+      "name": "Tanuki Sunset",
+      "cover": "assets/covers/tanuki-sunset-halloween.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/TANUKISUNSET.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "Terminus.JS",
+      "name": "Terminus.JS",
+      "cover": "assets/covers/Terminus.JS.webp",
+      "source": "https://nintendoboi2222.github.io/games/Terminus.JS/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "territorial-io",
+      "name": "Territorial.io",
+      "cover": "assets/covers/territorial-io.webp",
+      "source": "https://nintendoboi2222.github.io/games/territorial-io/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "tetris",
+      "name": "Tetris",
+      "cover": "assets/covers/tetris.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/tetris.webp",
+      "width": 512,
+      "height": 512,
+      "kind": "game artwork"
+    },
+    {
+      "id": "there-is-no-game",
+      "name": "There Is No Game",
+      "cover": "assets/covers/there-is-no-game.png",
+      "source": "https://raw.githubusercontent.com/3kh0/3kh0-lite/main/projects/there-is-no-game/logo.png",
+      "width": 360,
+      "height": 360,
+      "kind": "game artwork"
+    },
+    {
+      "id": "time-shooter-2",
+      "name": "Time Shooter 2",
+      "cover": "assets/covers/time-shooter-2.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/time-shooter-2.webp",
+      "width": 512,
+      "height": 384,
+      "kind": "game artwork"
+    },
+    {
+      "id": "time-shooter-3",
+      "name": "Time Shooter 3",
+      "cover": "assets/covers/time-shooter-3.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/SWATSH.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "tiny-fishing",
+      "name": "Tiny Fishing",
+      "cover": "assets/covers/tiny-fishing.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/TINYFISH.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "tomb-of-the-mask",
+      "name": "Tomb of The Mask",
+      "cover": "assets/covers/tomb-of-the-mask.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/tomball.webp",
+      "width": 307,
+      "height": 300,
+      "kind": "game artwork"
+    },
+    {
+      "id": "tunnel-rush-1",
+      "name": "Tunnel Rush 1",
+      "cover": "assets/covers/tunnel-rush-1.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/tunnel.webp",
+      "width": 300,
+      "height": 275,
+      "kind": "game artwork"
+    },
+    {
+      "id": "tunnel-rush-2",
+      "name": "Tunnel Rush 2",
+      "cover": "assets/covers/tunnel-rush-2.png",
+      "source": "https://nintendoboi2222.github.io/games/tunnel-rush-2/tunnel2.ico",
+      "width": 180,
+      "height": 180,
+      "kind": "game artwork"
+    },
+    {
+      "id": "unicycle-hero",
+      "name": "Unicycle Hero",
+      "cover": "assets/covers/unicycle-hero.png",
+      "source": "https://cdn-1.webcatalog.io/catalog/poki-unicycle-hero/poki-unicycle-hero-social-preview.png?v=1714778711104",
+      "kind": "game artwork",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "id": "volley-random",
+      "name": "Volly Random",
+      "cover": "assets/covers/volley-random.webp",
+      "source": "https://nintendoboi2222.github.io/games/volley-random/",
+      "kind": "game screenshot",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "id": "wheely-1",
+      "name": "Wheely 1",
+      "cover": "assets/covers/wheely-1.webp",
+      "source": "https://assets.funnygames.org/7/19437/72852/1200x600/wheely.webp",
+      "kind": "game artwork",
+      "width": 1200,
+      "height": 600
+    },
+    {
+      "id": "10-minutes-till-dawn",
+      "name": "10 Minutes Until Dawn",
+      "cover": "assets/covers/10-minutes-till-dawn.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/10MINB.webp",
+      "width": 206,
+      "height": 206,
+      "kind": "game artwork"
+    },
+    {
+      "id": "2048",
+      "name": "2048",
+      "cover": "assets/covers/2048.webp",
+      "source": "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/2048.webp",
+      "width": 1200,
+      "height": 1200,
+      "kind": "game artwork"
+    },
+    {
+      "id": "1v1-lol",
+      "name": "1v1 LOL",
+      "cover": "assets/covers/1v1-lol.png",
+      "source": "https://raw.githubusercontent.com/selenite-cc/selenite-old/main/1v1lol/splash.png",
+      "kind": "game artwork",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": "2MinuteFootball",
+      "name": "2 Minute Football",
+      "cover": "assets/covers/2MinuteFootball.jpg",
+      "source": "https://tops.games/uploads/thumbnails/2/2-minute-football_retina.jpg",
+      "kind": "game artwork",
+      "width": 1200,
+      "height": 640
+    },
+    {
+      "id": "super-star-car",
+      "name": "Super Star Car",
+      "cover": "assets/covers/super-star-car.jpg",
+      "source": "https://raw.githubusercontent.com/bubbls/UGS-Assets/main/super%20star%20car/8376e3a632b640cd3e9ca53b9963000a.jpeg",
+      "width": 1024,
+      "height": 1024,
+      "kind": "game artwork"
+    }
+  ]
+}
